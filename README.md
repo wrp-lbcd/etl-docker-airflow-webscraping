@@ -2,6 +2,9 @@
 ฝึก Web Scraping ด้วยข้อมูลบนเว็บไซต์ของ [![HomePro](https://img.shields.io/badge/Source-HomePro_Air_Conditioners-orange?style=for-the-badge&logo=homeadvisor)](https://www.homepro.co.th/c/APP01?dcx=d&s=12&size=100&q=%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%9B%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8&page=1)
 โดยจะเซฟเป็นไฟล์ CSV และควบคุมทั้ง Workflow ด้วย Apache Airflow ที่รันบน Docker โดยมีการประมูลผลข้อมูลด้วย Pandas และจัดเก็บลงใน Google Cloud Storage (GCS)
 
+<img width="746" height="458" alt="Screenshot 2569-02-10 at 16 09 38" src="https://github.com/user-attachments/assets/13645fe0-7623-4cdb-9183-0e74505d62de" />
+
+
 ## 📋 รายละเอียดของ (Workflow)
 Pipeline ชุดนี้ประกอบด้วย 2 งานหลัก (Tasks):
 1. scraping_data:
